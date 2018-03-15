@@ -1,0 +1,23 @@
+.Signin__wrapper {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    form#signin {
+
+        margin-top: 12.5%;
+
+        input[type=text] {
+            border: none;
+            border-bottom: 1px solid #999;
+            text-align: center;
+            width: 400px;
+            text-transform: lowercase;
+            padding: 6px;
+            font-size: 16px;
+            color: #666;
+        }
+    }
+}
